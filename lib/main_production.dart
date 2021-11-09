@@ -5,5 +5,5 @@ import 'package:qrcode_scanner/my_app.dart';
 
 // flutter build --flavor development -t lib/main_production.dart
 void main() {
-  runApp(Provider<Flavours>.value(value: Flavours.production, child: MyApp()));
+  runApp(Provider<Flavours>.value(value: Flavours.production, child: const MyApp()));
 }
